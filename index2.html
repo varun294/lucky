@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+         }
+         .login-box{
+           background: #fff;
+           padding: 30px;
+           border-radius: 10px;
+           box-shadow:0 4px 8px rgba(0,0,0,0,1);
+           width: 300px;
+           text-align: center;
+         }
+         .login-box h1{
+           margin-bottom: 20px;
+             color: #333;
+         }
+         .login-box input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid#ccc;
+             border-radius: 5px;
+             font-size:16px;
+         }
+         .login-box button{
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-coclor 0.3s ease-in-out;
+            width: 100%;
+                 }
+          .login-box button:hover{
+            background-color:#c70039;
+          } 
+          .login-box form button a{
+            text-decoration: none;
+            color:#f8f9fa;
+          }     
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <form>
+            <input type="text"  placeholder="Username" required><br>
+            <input type="text"  placeholder="Password" required><br>
+            <button><a href="index1.html">Login</a></button>
+
+        </form>
+    </div>
+    
+</body>
+</html>

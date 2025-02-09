@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+       body{
+        font-family: Arial,sans-serif;
+       } 
+       .navbar{
+        background-color: black;
+        overflow: hidden;
+        display: flex;
+     }
+     .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 15px 19px;
+        display: inline-block;
+        text-align: center;
+     }
+     .navbar .logo{
+        font-size: 40px;
+        font-weight: bold;
+     }
+     
+     .navbar .a:hover{
+        background-color: #eee6e6;
+        color: cadetblue;
+        transition: transform 0.5s ease-in-out;
+     }
+     .navbar .menu{
+        margin-left: auto;
+        display: flex;
+        font-size: 20px;
+       margin-top: auto;
+     }
+     .lucky {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            background-color: rgb(233, 250, 230);
+            padding: 20px;
+            justify-content: center;
+        }
+     .luc {
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition:transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+     }
+     .luc img{
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+      display: flex;
+     }
+     .luc:hover {
+            transform: scale(1.05);
+            background-color: #ff6f00;
+            color: white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     }
+   
+
+.luc:hover img {
+    transform: scale(1.1);
+}
+.luc button {
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s, transform 0.3s;
+}
+.luc button:hover {
+            
+            background-color: #c70039;
+            transform: scale(1.1);
+        }
+        .footer{
+         background-color: black;
+         color: white;
+         text-align: center;
+         padding: 20px;
+         margin-top: 20px;
+        }
+        .footer a{
+         color: orange;
+         text-decoration: none;
+         margin: 0 5px;
+         transition: color 0.3;
+        }
+        .footer a:hover{
+         color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        <a href="" class="logo"><i class="fa-light fa-store">QuickCart</i></a>
+        <div class="menu">
+         <a href="index2.html">Login</a>
+         <a href="#" class="Register">Register</a>
+         <a herf="#"> 🛒 Cart</a>
+        </div>
+      </header>    
+        <section class="lucky">
+         <div class="luc"><img src="/bisccuit.jpg" alt="Biscuits"><h2>Biscuits<br> <button>Rs:50/- each</button></h2></div>
+         <div class="luc"><img src="/bread.jpg" alt="Bread"><h2>Bread<br><button>Rs:60/-each</button></h2></div>
+         <div class="luc"><img src="/chocolates.jpg" alt="Chocolates"><h2>Chocolates<br><button>Rs:80/-each</button></h2></div>
+         <div class="luc"><img src="/eggs.jpg" alt="Eggs"><h2>Eggs<br><button>Rs:8/-each</button></h2></div>
+         <div class="luc"><img src="/flakes.jpg" alt="Flakes"><h2>Flakes<br><button>Rs:120/-each</button></h2></div>
+         <div class="luc"><img src="/shampoo.jpeg" alt="Shampoo"><h2>Shampoo<br><button>Rs:10/-each</button></h2></div>
+         <div class="luc"><img src="/soaps.jpg" alt="Soaps"><h2>Soaps<br><button>Rs:40/-each</button></h2></div>
+         <div class="luc"><img src="/tea powdwer.jpg" alt="Tea Powder"><h2>Tea Powder<br><button>Rs:100/-each</button></h2></div>
+         <div class="luc"><img src="/cool drinks.webp" alt="Cool Drinks"><h2>Cool Drinks<br><button>Rs:70/-each</button></h2></div>
+         <div class="luc"><img src="/facewash.webp" alt="Face Wash"><h2>Face Wash<br><button>Rs:150/-each</button></h2></div>
+        </section>
+        <footer class="footer">
+         <div class="footer content">
+            <p>© 2025 Quickcart All Rights Are Reserved</p><br>
+            <p> Follow us on
+               <a href="https://web.whatsapp.com/"><img src="/whatsapp logo.png" height="30px" width="30px"></a>
+               <a href="https://www.instagram.com/"><img src="/instagram.jpeg" height="30px" width="30px"></a>
+               <a href="https://x.com/twitter?lang=en"><img src="/twitter.jpeg" height="30px" width="30px"></a>
+            </p><br>
+            <p>contact us| supportquickcart@gmail.com |9398575753| 9989114315
+         </div>
+
+        </footer>
+</body>
+</html>
